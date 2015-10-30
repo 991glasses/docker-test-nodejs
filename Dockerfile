@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 
 #COPY package.json /usr/src/app/
 COPY . /usr/src/app
-npm install -g pm2
+RUN npm install -g pm2
 RUN npm install
 
 EXPOSE 80
