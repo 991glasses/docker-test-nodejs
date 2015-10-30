@@ -6,7 +6,8 @@ var http  = require('http').Server(app);
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function(req, res) {
-  res.send('hello world');
+  console.log('get a resquest');
+  res.send('hello docker');
 });
 
 http.listen(80, function(){
