@@ -10,4 +10,4 @@ RUN npm install
 
 EXPOSE 80
 
-CMD [ "pm2", "start", "app.js" ]
+CMD [ "pm2-dev", "run", "app.js" ]
